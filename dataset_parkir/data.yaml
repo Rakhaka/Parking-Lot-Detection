@@ -1,0 +1,13 @@
+train: train/images
+val: valid/images
+test: test/images
+
+nc: 2
+names: ['Car', 'Free']
+
+roboflow:
+  workspace: ekspresi-8vghz
+  project: prediksi_lahan_parkir
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ekspresi-8vghz/prediksi_lahan_parkir/dataset/2
